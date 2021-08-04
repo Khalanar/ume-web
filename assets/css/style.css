@@ -6,6 +6,7 @@
     font-family: "Roboto ", sans-serif;
 }
 
+/* Header */
 header{
     background-color: rgb(60, 60, 60);
     height:55px;
@@ -19,14 +20,7 @@ header{
     grid-template-columns: 8% 12% auto;
 }
 
-.ume-pink{
-    color: rgb(249, 173, 120);
-}
-
-.ume-green{
-    color: rgb(94, 201, 178);
-}
-
+/* Logo */
 #logo{
     font-family: 'Roboto Condensed', sans-serif;
     letter-spacing: 1px;
@@ -40,6 +34,7 @@ header{
     margin-top:15px;
 }
 
+/* Top Navigation Menu */
 #menu{
     height:35px;
     padding:19px 0px 20px 30px;
@@ -58,8 +53,16 @@ header{
     color: rgb(249, 173, 120);
 }
 
-/* Social Navigation */
+/* Quick Classes */
+.ume-pink{
+    color: rgb(249, 173, 120);
+}
 
+.ume-green{
+    color: rgb(94, 201, 178);
+}
+
+/* Social Navigation */
 #social-nav{
     text-align: center;
 }
@@ -79,6 +82,5 @@ header{
 }
 
 #social-nav a:hover{
-    /* color: rgb(249, 173, 120); */
     color: rgb(94, 201, 178);
 }
