@@ -112,7 +112,19 @@ section{
 
 #whatis{
     display: block;
+    height:400px;
+    display: grid;
+    grid-template-columns: 25% auto;
 }
+
+#whatis> :first-child{
+    background-color:yellow;
+}
+#whatis div{
+     background-color:red;
+}
+
+
 
 
 
