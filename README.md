@@ -53,7 +53,7 @@ Live project can be seen [here](https://khalanar.github.io/ci-p1/)
 - Code for aaa from bbb
 
 ### Media
-- Image aaa from bbb
+- Hero ![image](https://unsplash.com/photos/hgWBJ5HM-_M) by ![Austin Distel](https://unsplash.com/@austindistel) at ![unsplash](https://unsplash.com)
 
 ## Changelog
 **03 sept 2021** Created basic readme
