@@ -85,7 +85,7 @@ section{
 
 #left-cover-text{
     top: 60px;
-    left: 20%;
+    left: 15%;
 }
 
 #right-cover-text{
@@ -96,14 +96,25 @@ section{
 .cover-card{
     position: absolute;
     width: 300px;
-    height: 50px;
-    padding: 15px;
-    background-color: rgba(255, 255, 255, 0.7);
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+}
+
+.cover-card h1{
+    color: rgb(120, 120, 120);
+}
+
+.cover-card p{
+    color: rgb(160, 160, 160); 
+    padding-top: 20px;
 }
 
 #whatis{
     display: block;
 }
+
+
 
 /* Social Navigation */
 #social-nav{
