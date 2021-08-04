@@ -5,3 +5,55 @@
     padding: 0;
     font-family: "Roboto ", sans-serif;
 }
+
+header{
+    background-color: rgb(60, 60, 60);
+    height:55px;
+    color: white;
+}
+
+#header-content{
+    margin: 0 auto;
+    width: 400px;
+    display: grid;
+    grid-template-columns: 8% 12% auto;
+}
+
+.ume-pink{
+    color: rgb(249, 173, 120);
+}
+
+.ume-green{
+    color: rgb(94, 201, 178);
+}
+
+#logo{
+    font-family: 'Roboto Condensed', sans-serif;
+    letter-spacing: 1px;
+    font-size: 150%;
+    padding: 11px 0;
+    height:10px;
+}
+
+#logo-img{
+    height:25px;
+    margin-top:15px;
+}
+
+#menu{
+    height:35px;
+    padding:19px 0px 20px 30px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+#menu a{    
+    text-align: right;
+    color: white;
+    text-decoration: none;
+}
+
+#menu a:hover{
+    color: rgb(249, 173, 120);
+}
