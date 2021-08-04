@@ -57,3 +57,28 @@ header{
 #menu a:hover{
     color: rgb(249, 173, 120);
 }
+
+/* Social Navigation */
+
+#social-nav{
+    text-align: center;
+}
+
+#social-nav > li{
+    display: inline;
+}
+
+#social-nav i{
+    font-size: 150%;
+    margin: 1%;
+    padding: 2%;
+}
+
+#social-nav a{
+    color: rgb(60, 60, 60);
+}
+
+#social-nav a:hover{
+    /* color: rgb(249, 173, 120); */
+    color: rgb(94, 201, 178);
+}
