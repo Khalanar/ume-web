@@ -11,6 +11,11 @@ header{
     background-color: rgb(60, 60, 60);
     height:55px;
     color: white;
+    width: 100%;
+}
+
+section{
+    display: block;
 }
 
 #header-content{
@@ -60,6 +65,44 @@ header{
 
 .ume-green{
     color: rgb(94, 201, 178);
+}
+
+#hero-container{
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+
+}
+
+#hero{
+    height:100%;
+    background-color: black;
+    background: url(../images/roman-bozhko-PypjzKTUqLo-unsplash.jpg);
+    background-position: center;
+    background-size: 100%;
+}
+
+#left-cover-text{
+    top: 60px;
+    left: 20%;
+}
+
+#right-cover-text{
+    bottom: 60px;
+    right: 20%;
+}
+
+.cover-card{
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+#whatis{
+    display: block;
 }
 
 /* Social Navigation */
