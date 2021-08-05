@@ -112,21 +112,82 @@ section{
 
 #whatis{
     display: block;
-    height:400px;
+    height:100%;
     display: grid;
     grid-template-columns: 25% auto;
+    padding: 40px 20px;
 }
 
 #whatis> :first-child{
-    background-color:yellow;
+    /* background-color:yellow; */
+    height:100%;
+    text-align: center;
 }
-#whatis div{
-     background-color:red;
+
+#whatis> :first-child h2{
+    color: rgb(120, 120, 120);
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
+#whatis p{
+    color: rgb(120, 120, 120);
+    font-family: 'Roboto ', sans-serif;
+    margin: 20px;
+    text-align: left;
+    line-height: 30px;
+}
 
+#whatis div, #testimonials div{
+     /* background-color:red; */
+     /* margin: 20px; */
+     margin-bottom: 20px;
+}
 
+#testimonials{
+    display: block;
+    height:400px;
+    display: grid;
+    grid-template-columns: 25% auto;
+    padding: 40px 20px;
 
+    background-color: rgb(70, 70, 70);
+}
+
+#testimonials> :first-child{
+    text-align: center;
+    color: rgb(180, 180, 180);
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.card-deck{
+    width: 100%;
+    margin: 0;
+    /* background-color: gray; */
+}
+
+.card-deck div{
+    width: 250px;
+    height: 350px;
+    background-color:white;
+    /* border: 1px solid rgb(220, 220, 220); */
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: 0px 20px;
+    box-shadow: 0px 2px 5px 1px rgb(180, 180, 180);
+    float: left;
+}
+
+.card-deck div:hover{
+    box-shadow: 0px 4px 8px 2px rgb(180, 180, 180);
+}
+
+.card-deck h3{
+    color: rgb(94, 201, 178);
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 0px;
+}
 
 /* Social Navigation */
 #social-nav{
