@@ -142,14 +142,23 @@ section{
     line-height: 30px;
 }
 
+#testimonials > :first-child p{
+    line-height: 30px;
+}
+
+#testimonials p{
+    line-height: 20px;
+}
+
 #whatis p{
     text-align: left;
+    color: rgb(150, 175, 170);
+    font-size: 0.95em;
 }
 
 .testimonial-quotes{
     text-align: center;
-    font-style: italic;
-    color: rgb(150, 175, 170);
+    /* font-style: italic; */
     height:160px;
     font-size: 0.95em;
 }
@@ -157,8 +166,9 @@ section{
 .testimonial-quotes + p {
     text-align: right;
     color: rgb(150, 175, 170);
-    position: relative;
-    bottom: 10px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
 }
 
 #whatis div, #testimonials div{
@@ -215,14 +225,22 @@ section{
 
 .small-card {
     width: 250px;
-    height: 350px;
+    height: 275px;
     background-color:white;
     border-radius: 5px;
     box-sizing: border-box;
     margin: 0px 10px;
-    box-shadow: 0px 2px 5px 1px rgb(180, 180, 180);
+    box-shadow: 0px 2px 5px 1px rgb(0 0 0 / 20%);
     float: left;
     position: relative;
+}
+
+.small-card p{
+    color: rgb(150, 175, 170);
+}
+
+.small-card a{
+    color: rgb(94, 201, 178);
 }
 
 .long{
@@ -230,7 +248,7 @@ section{
 }
 
 .small-card:hover{
-    box-shadow: 0px 4px 8px 2px rgb(180, 180, 180);
+    box-shadow: 0px 4px 8px 2px rgb(0 0 0 / 30%);
 }
 
 .card-deck h3{
@@ -238,6 +256,11 @@ section{
     text-align: center;
     padding: 20px;
     padding-bottom: 0px;
+}
+
+.card-deck i{
+    font-size: 1.1em;
+
 }
 
 .circle-image{
