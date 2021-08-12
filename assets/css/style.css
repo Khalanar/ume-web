@@ -37,23 +37,29 @@ section{
     font-family: 'Roboto Condensed', sans-serif;
     letter-spacing: 1px;
     font-size: 150%;
+    float: left;
 }
 
 #logo-img{
-    height:25px;
+    height:20px;
     margin-top:15px;
-    
     margin-left: 5px;
 
 }
 
+#logo-text{
+    
+}
+
 /* Top Navigation Menu */
 #menu{
-    height:35px;
-    padding:19px 0px 20px 30px;
+    height: 35px;
+    padding: 19px 0px 20px 30px;
     list-style: none;
     display: grid;
     grid-template-columns: auto auto auto auto;
+    padding: 20px 0;
+    text-align: center;
 }
 
 #menu a{    
@@ -389,7 +395,7 @@ section{
     margin: 0 auto;
         width:100%;
     display: grid;
-    grid-template-columns: 100px;
+    grid-template-columns: 100%;
     }
 
     #header-content li{
@@ -397,6 +403,10 @@ section{
     }
     #hero{
         background-size: 150%;
+    }
+
+    #logo{
+        text-align: center;
     }
 
 }
