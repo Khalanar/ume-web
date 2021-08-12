@@ -115,8 +115,9 @@ section{
     display: block;
     height:100%;
     display: grid;
-    grid-template-columns: 25% auto;
+    grid-template-columns: 25% 25%;
     padding: 40px 20px;
+    margin: 0px auto;
 }
 
 #whatis> :first-child{
@@ -181,6 +182,7 @@ section{
     display: grid;
     grid-template-columns: 25% auto;
     padding: 40px 20px;
+    margin: 0px auto;
     background-color: rgb(70, 70, 70);
 }
 
@@ -219,13 +221,13 @@ section{
 }
 
 .card-deck{
-    width: 100%;
-    margin: 0;
+    display: grid;
+    grid-template-columns: 270px 270px 270px 270px;
 }
 
 .small-card {
     width: 250px;
-    height: 275px;
+    height: 225px;
     background-color:white;
     border-radius: 5px;
     box-sizing: border-box;
@@ -292,4 +294,32 @@ section{
 
 #social-nav a:hover{
     color: rgb(94, 201, 178);
+}
+
+
+
+@media screen and (max-width: 1450px){
+
+    #whatis, #testimonials{
+        grid-template-columns: 30% auto;
+        width: 700px;
+    }
+
+    .card-deck{
+        grid-template-columns: 270px 270px;
+    }
+
+}
+
+
+@media screen and (max-width: 830px){
+
+    #whatis, #testimonials{
+       display: block;
+    }
+
+    .card-deck{
+        grid-template-columns: 270px 270px;
+    }
+
 }
