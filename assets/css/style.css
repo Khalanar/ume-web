@@ -131,7 +131,7 @@ section{
     font-size: 1.2em;
 }
 
-#testimonials > :first-child h2{
+#testimonials > h2{
     color: rgb(120, 120, 120);
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 1.2em;
@@ -149,6 +149,7 @@ section{
 
 #testimonials p{
     line-height: 20px;
+    text-align: left;
 }
 
 #whatis p{
@@ -174,6 +175,10 @@ section{
 
 #whatis div, #testimonials div{
     margin-bottom: 20px;
+}
+
+#testimonials-full{
+    background-color: rgb(70, 70, 70); 
 }
 
 #testimonials{
@@ -212,6 +217,13 @@ section{
     background-size: 205px;
 }
 
+
+#testimonials  h2{
+    color: rgb(120, 120, 120);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.2em;
+
+}
 
 #testimonials> :first-child{
     text-align: center;
@@ -253,11 +265,12 @@ section{
     box-shadow: 0px 4px 8px 2px rgb(0 0 0 / 30%);
 }
 
-.card-deck h3{
+.card-deck h3 {
     color: rgb(94, 201, 178);
     text-align: center;
     padding: 20px;
     padding-bottom: 0px;
+    font-size: 1.05em;
 }
 
 .card-deck i{
@@ -296,8 +309,6 @@ section{
     color: rgb(94, 201, 178);
 }
 
-
-
 @media screen and (max-width: 1450px){
 
     #whatis, #testimonials{
@@ -316,6 +327,7 @@ section{
 
     #whatis, #testimonials{
        display: block;
+       width: 540px;
     }
 
     .card-deck{
