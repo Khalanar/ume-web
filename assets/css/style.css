@@ -10,6 +10,7 @@
 
 body{
     color: rgb(180, 180, 180);
+    min-width: 300px;
 }
 
 /* Header */
@@ -84,7 +85,7 @@ section{
 #hero{
     height:100%;
     background-color: black;
-    background: url(../images/roman-bozhko-PypjzKTUqLo-unsplash.jpg);
+    background: url(../images/roman-bozhko-PypjzKTUqLo-unsplash.jpg) no-repeat;
     background-position: center;
     background-size: 100%;
 }
@@ -362,7 +363,7 @@ section{
     }
 
     #hero-container{
-        height:200px;
+        height:250px;
         position:static;
     }
 
@@ -370,6 +371,7 @@ section{
         margin: auto 20px;
         top: 110px;
         left: 0px;
+        width: 80%;
     }
     
     .cover-card{
@@ -385,13 +387,16 @@ section{
 
     #header-content{
     margin: 0 auto;
-
+        width:100%;
     display: grid;
     grid-template-columns: 100px;
     }
 
     #header-content li{
         margin: 0px 10px;
+    }
+    #hero{
+        background-size: 150%;
     }
 
 }
