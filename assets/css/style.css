@@ -5,7 +5,11 @@
     padding: 0;
     font-family: "Roboto ", sans-serif;
     font-size: 1em;
-    color: rgb(120, 120, 120);
+
+}
+
+body{
+    color: rgb(180, 180, 180);
 }
 
 /* Header */
@@ -24,7 +28,7 @@ section{
     margin: 0 auto;
     width: 400px;
     display: grid;
-    grid-template-columns: 8% 12% auto;
+    grid-template-columns: 35px 45px auto;
 }
 
 /* Logo */
@@ -39,6 +43,9 @@ section{
 #logo-img{
     height:25px;
     margin-top:15px;
+    
+    margin-left: 5px;
+
 }
 
 /* Top Navigation Menu */
@@ -132,7 +139,6 @@ section{
 }
 
 #testimonials > h2{
-    color: rgb(120, 120, 120);
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 1.2em;
 }
@@ -219,7 +225,7 @@ section{
 
 
 #testimonials  h2{
-    color: rgb(120, 120, 120);
+  
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 1.2em;
 
@@ -363,11 +369,9 @@ section{
     }
 
     #left-cover-text{
-
-            margin: auto 20px;
-            top: 75px;
-            left: 0px;
-        
+        margin: auto 20px;
+        top: 110px;
+        left: 0px;
     }
     
     .cover-card{
@@ -375,6 +379,21 @@ section{
         border-radius: 5px;
         box-sizing: border-box;
         position: absolute;
+    }
+
+    header {
+        height: 100px;
+    }
+
+    #header-content{
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 35px 45px;
+    }
+
+    #header-content li{
+        margin: 0px 10px;
     }
 
 }
