@@ -28,7 +28,7 @@ section{
     margin: 0 auto;
     width: 400px;
     display: grid;
-    grid-template-columns: 35px 45px auto;
+    grid-template-columns: 100px auto;
 }
 
 /* Logo */
@@ -36,8 +36,6 @@ section{
     font-family: 'Roboto Condensed', sans-serif;
     letter-spacing: 1px;
     font-size: 150%;
-    padding: 11px 0;
-    height:10px;
 }
 
 #logo-img{
@@ -389,7 +387,7 @@ section{
     margin: 0 auto;
 
     display: grid;
-    grid-template-columns: 35px 45px;
+    grid-template-columns: 100px;
     }
 
     #header-content li{
