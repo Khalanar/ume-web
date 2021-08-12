@@ -349,19 +349,32 @@ section{
 
     .card-deck{
         grid-template-columns: auto;
-        
         box-sizing: border-box;
-     
     }
 
     .small-card{
         width: 100%;
         margin: auto 0px;
-      
     }
 
     #hero-container{
-        height:300px;
+        height:200px;
+        position:static;
+    }
+
+    #left-cover-text{
+
+            margin: auto 20px;
+            top: 75px;
+            left: 0px;
+        
+    }
+    
+    .cover-card{
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius: 5px;
+        box-sizing: border-box;
+        position: absolute;
     }
 
 }
