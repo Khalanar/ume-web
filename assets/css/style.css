@@ -328,10 +328,40 @@ section{
     #whatis, #testimonials{
        display: block;
        width: 540px;
+       
     }
 
     .card-deck{
         grid-template-columns: 270px 270px;
+    }
+    #hero-container{
+        height:300px;
+    }
+}
+
+@media screen and (max-width: 580px){
+
+    #whatis, #testimonials{
+       display: block;
+       width: 100%;
+       box-sizing: border-box;
+    }
+
+    .card-deck{
+        grid-template-columns: auto;
+        
+        box-sizing: border-box;
+     
+    }
+
+    .small-card{
+        width: 100%;
+        margin: auto 0px;
+      
+    }
+
+    #hero-container{
+        height:300px;
     }
 
 }
