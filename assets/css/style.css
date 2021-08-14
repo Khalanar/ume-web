@@ -72,6 +72,13 @@ section{
     position: relative;
 }
 
+#hero-container-small{
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
 #hero{
     height:100%;
     background-color: black;
@@ -195,7 +202,7 @@ section{
 }
 
 #program-table{
-    margin: 40px 20px;
+    margin: 0px 20px 20px 20px;
 }
 
 #jobs{
@@ -318,11 +325,13 @@ section{
 /* Full Table */
 .full-table{
     width:70%;
-    min-width: 400px;
+    min-width: 300px;
     border-collapse: collapse;
     margin: 0px auto;
     color: rgb(150, 175, 170);
     font-size: 0.95em;
+    background-color: rgb(243, 243, 243);
+    border-radius: 10px;
 }
 
 .full-table tbody{
@@ -336,11 +345,11 @@ td, th{
 }
 
 #t-header:hover{
-    background-color: white;
+    background-color: rgb(243, 243, 243);
 }
 
 tr:hover{
-    background-color: rgb(243, 243, 243);
+    background-color: white;
 }
 
 /* Quick Classes */
@@ -384,6 +393,10 @@ MEDIA QUERIES
     }
     #hero-container{
         height:300px;
+    }
+
+    #hero-container-small{
+        height:200px;
     }
 
     .full-table{
@@ -433,10 +446,10 @@ MEDIA QUERIES
     }
 
     #header-content{
-    margin: 0 auto;
+        margin: 0 auto;
         width:100%;
-    display: grid;
-    grid-template-columns: 100%;
+        display: grid;
+        grid-template-columns: 100%;
     }
 
     #header-content li{
