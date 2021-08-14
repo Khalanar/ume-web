@@ -118,7 +118,6 @@ section{
     margin: 50px 0px;
     padding: 20px;
     border-radius: 5px;
-  
     height: 70%;
     background-color: rgba(0, 0, 0, 0.7);
 }
@@ -126,6 +125,20 @@ section{
 #contact-form h2{
     text-align: center;
     margin-bottom: 30px;
+}
+
+.text-input{
+    background: transparent;
+    border: 1px solid rgb(249, 173, 120);
+    border-radius: 3px;
+    color: white;
+    padding:5px;
+    margin: 10px 0px 20px 10px;
+    /* color: rgb(94, 201, 178); */
+}
+
+.text-input:hover{
+    border: 1px solid rgb(94, 201, 178);
 }
 
 #left-cover-text{
