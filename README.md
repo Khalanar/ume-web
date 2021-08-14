@@ -57,9 +57,9 @@ Live project can be seen [here](https://khalanar.github.io/ci-p1/)
 - Code for aaa from bbb
 
 ### Media
-- Hero [image](https://unsplash.com/photos/PypjzKTUqLo) by [Roman Bozhko](https://unsplash.com/@romanbozhko) at [unsplash](https://unsplash.com)
-- Hero [image](https://unsplash.com/photos/SYTO3xs06fU) by [Marvin Meyer](https://unsplash.com/@marvelous) at [unsplash](https://unsplash.com)
-- Hero [image](https://unsplash.com/photos/WHUDOzd5IYU) by [Adam Solomon](https://unsplash.com/@solomac) at [unsplash](https://unsplash.com)
+- Hero Index [image](https://unsplash.com/photos/PypjzKTUqLo) by [Roman Bozhko](https://unsplash.com/@romanbozhko) at [unsplash](https://unsplash.com)
+- Hero Platforms [image](https://unsplash.com/photos/SYTO3xs06fU) by [Marvin Meyer](https://unsplash.com/@marvelous) at [unsplash](https://unsplash.com)
+- Hero Contact [image](https://unsplash.com/photos/WHUDOzd5IYU) by [Adam Solomon](https://unsplash.com/@solomac) at [unsplash](https://unsplash.com)
 
 ## Changelog
 **03 sept 2021** Created basic readme
