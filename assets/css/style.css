@@ -5,7 +5,6 @@
     padding: 0;
     font-family: "Roboto ", sans-serif;
     font-size: 1em;
-
 }
 
 body{
@@ -36,19 +35,13 @@ section{
 #logo{
     font-family: 'Roboto Condensed', sans-serif;
     letter-spacing: 1px;
-    font-size: 150%;
-    float: left;
+    font-size: 1.5em;
 }
 
 #logo-img{
     height:20px;
     margin-top:15px;
     margin-left: 5px;
-
-}
-
-#logo-text{
-    
 }
 
 /* Top Navigation Menu */
@@ -70,15 +63,6 @@ section{
 
 #menu a:hover{
     color: rgb(249, 173, 120);
-}
-
-/* Quick Classes */
-.ume-pink{
-    color: rgb(249, 173, 120);
-}
-
-.ume-green{
-    color: rgb(94, 201, 178);
 }
 
 #hero-container{
@@ -127,7 +111,7 @@ section{
     display: block;
     height:100%;
     display: grid;
-    grid-template-columns: 25% 25%;
+    grid-template-columns: 25% auto;
     padding: 40px 20px;
     margin: 0px auto;
 }
@@ -200,6 +184,10 @@ section{
     padding: 40px 20px;
     margin: 0px auto;
     background-color: rgb(70, 70, 70);
+}
+
+#program-table{
+    margin: 40px 20px;
 }
 
 #jobs{
@@ -286,7 +274,6 @@ section{
 
 .card-deck i{
     font-size: 1.1em;
-
 }
 
 .circle-image{
@@ -320,19 +307,61 @@ section{
     color: rgb(94, 201, 178);
 }
 
+/* Full Table */
+.full-table{
+    width:70%;
+    min-width: 400px;
+    border-collapse: collapse;
+    margin: 0px auto;
+    color: rgb(150, 175, 170);
+    font-size: 0.95em;
+}
+
+.full-table tbody{
+    /* border: 1px solid green; */
+}
+
+td, th{
+    height: 75px;
+    text-align: center;
+    width: 20%;
+}
+
+#t-header:hover{
+    background-color: white;
+}
+
+tr:hover{
+    background-color: rgb(243, 243, 243);
+}
+
+/* Quick Classes */
+.ume-pink{
+    color: rgb(249, 173, 120);
+}
+
+.ume-green{
+    color: rgb(94, 201, 178);
+}
+
+.mh-50{
+    margin: 0 50px;
+}
+
+/* 
+MEDIA QUERIES
+ */
 @media screen and (max-width: 1450px){
 
     #whatis, #testimonials{
         grid-template-columns: 30% auto;
-        width: 700px;
+        width: 766px;
     }
 
     .card-deck{
         grid-template-columns: 270px 270px;
     }
-
 }
-
 
 @media screen and (max-width: 830px){
 
@@ -348,6 +377,10 @@ section{
     #hero-container{
         height:300px;
     }
+
+    .full-table{
+        width:100%;
+    }    
 }
 
 @media screen and (max-width: 580px){
