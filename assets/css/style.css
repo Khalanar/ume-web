@@ -80,6 +80,14 @@ section{
     background-size: 100%;
 }
 
+#hero-platforms{
+    height:100%;
+    background-color: black;
+    background: url(../images/marvin-meyer-SYTO3xs06fU-unsplash.jpg) no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
 #left-cover-text{
     top: 60px;
     left: 15%;
