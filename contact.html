@@ -11,7 +11,7 @@
     <header>
         <div id="header-content">
             <h1 id="logo" class="ume-green">
-                <img id="logo-img" src="assets/images/umeboshi-logo-small.png">
+                <img id="logo-img" src="assets/images/umeboshi-logo-small.png" alt="ume">
                  ume
             </h1>
             <nav>
@@ -32,19 +32,21 @@
                 
                 
                 <h2>Reach out to us!</h2>
-                <form>
+                <form method="POST" action="https://formdump.codeinstitute.net/">
                     
-                    <label for="">First name</label><br>
-                    <input class="text-input" type="text"><br>
-                    <label for="">Last name</label><br>
-                    <input class="text-input" type="text"><br>
-                    <label for="">Email address</label><br>
-                    <input class="text-input" type="text"><br>
+                    <label for="fname">First name</label><br>
+                    <input id="fname" class="text-input" type="text" name="first_name" required><br>
+                    
+                    <label for="lname">Last name</label><br>
+                    <input id="lname" class="text-input" type="text" name="last_name" required><br>
+                    
+                    <label for="email">Email address</label><br>
+                    <input id="email" class="text-input" type="email" name="email_address" required><br>
                     
                     
-                    <input type="radio" id="pricing" value="pricing" name="contact_reason" required>
+                    <input class="radio-button" type="radio" id="pricing" value="pricing" name="contact_reason" required>
                     <label for="pricing">Pricing</label><br>
-                    <input type="radio" id="general_info" value="general_info" name="contact_reason">
+                    <input class="radio-button" type="radio" id="general_info" value="general_info" name="contact_reason">
                     <label for="general_info">General Info</label>
 
                     <input class="submit-button" type="submit" name="" id="">

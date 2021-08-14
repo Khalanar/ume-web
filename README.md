@@ -1,4 +1,4 @@
-![UME logo]
+![UME logo](assets/images/umeboshi-logo-150.png)
 
 # ume**bot**shi
 
@@ -37,7 +37,7 @@ This website's aim is to show what ume is capable of with its implemented featur
 - CSS
     - No errors were found
 - Accessibility
-    - ![lighthouse-screen]
+![lighthouse-screen](assets/images/lighthouse-acc.png)
 
 ## Deployment
 Deployed using GitHub pages using steps below:
