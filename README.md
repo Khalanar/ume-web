@@ -38,6 +38,10 @@ This website's aim is to show what ume is capable of with its implemented featur
     - No errors were found
 - Accessibility
 ![lighthouse-screen](assets/images/lighthouse-acc.png)
+- Responsiveness
+![index](assets/images/responsive-index.png)
+![platforms](assets/images/responsive-platforms.png)
+![contact](assets/images/responsive-contact.png)
 
 ## Deployment
 Deployed using GitHub pages using steps below:
