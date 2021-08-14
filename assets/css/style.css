@@ -79,6 +79,14 @@ section{
     position: relative;
 }
 
+#hero-container-full{
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+
 #hero{
     height:100%;
     background-color: black;
@@ -91,6 +99,14 @@ section{
     height:100%;
     background-color: black;
     background: url(../images/marvin-meyer-SYTO3xs06fU-unsplash.jpg) no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+#hero-contact{
+    height:100%;
+    background-color: black;
+    background: url(../images/adam-solomon-WHUDOzd5IYU-unsplash.jpg) no-repeat;
     background-position: center;
     background-size: 100%;
 }
