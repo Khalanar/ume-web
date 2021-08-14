@@ -2,26 +2,27 @@
 
 # ume**bot**shi
 
-This website's aim is to show what the bot ume is capable of doing among different platforms. A section on what to expect from this bot and testimonials, along with a contact form if users want more information.
+This website's aim is to show what the bot **ume** is capable of doing in different platforms. There's sections on what to expect from this bot and testimonials, along with a contact form if users want more information.
+
 
 ## Features
 This website shows information for:
-- What is ume and why should you use it
+- What is **ume** and why should you use it
 - Testimonials
 - Functionality by Platform
-- Social media links
+- Social Media links
 
 ## Skeleton
 - Home
-    - hero
-    - what is ume
-    - testimonials
+    - Hero
+    - What is ume
+    - Testimonials
 - Platforms
-    - hero
-    - platform table with features
+    - Hero
+    - Platform table with bot features
 - Contact
-    - hero
-        - form
+    - Hero
+        - Form
 
 ### Relevant Social Links
 - Github
