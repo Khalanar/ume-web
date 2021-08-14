@@ -50,7 +50,7 @@ section{
     padding: 19px 0px 20px 30px;
     list-style: none;
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: 33.3% 33.3% 33.3%;
     padding: 20px 0;
     text-align: center;
 }
