@@ -23,19 +23,26 @@ This website shows information for:
     - hero
         - form
 
-## Relevant Social Links
+### Relevant Social Links
 - Github
 - Twitter
 - Telegram
 - Slack
  
+## Wireframes
+### Index
+![Wireframe image 1](assets/images/index-wireframes.png)
+### Platforms
+![Wireframe image 2](assets/images/platforms-wireframes.png)
+### Contact
+![Wireframe image 3](assets/images/contact-wireframes.png)
 ---
 
 ## Testing
 
 ### HTML
     - No errors were found
-    - 1 ignored warnings for hero-platforms not having a h1, which is working as intended
+    - 1 Warnings ignored - Hero-platforms does not have h1, which is intentional
 ### CSS
     - No errors were found
 ### Accessibility
