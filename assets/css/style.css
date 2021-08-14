@@ -173,6 +173,14 @@ section{
     right: 20%;
 }
 
+#program-table h2{
+    margin: 20px 0px;
+    color: rgb(120, 120, 120);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+}
+
 .cover-card{
     position: absolute;
     width: 300px;

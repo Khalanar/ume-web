@@ -34,6 +34,7 @@ This website's aim is to show what ume is capable of with its implemented featur
 ### Validator Results
 - HTML
     - No errors were found
+    - 2 ignored warnings in hero images that don't have headers in platforms
 - CSS
     - No errors were found
 - Accessibility
