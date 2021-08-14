@@ -392,7 +392,7 @@ section{
 /* Full Table */
 .full-table{
     width:70%;
-    min-width: 300px;
+    min-width: 200px;
     border-collapse: collapse;
     margin: 0px auto;
     /* color: rgb(110, 136, 131); */
@@ -538,5 +538,10 @@ MEDIA QUERIES
     .text-input{
         width: 90%;
     }
+
+    .full-table{
+        font-size: 0.7em;
+    }
+    
 
 }
