@@ -49,6 +49,8 @@ This fully responsive website shows information for:
 ![Wireframe image 2](assets/images/platforms-wireframes.png)
 ### Contact
 ![Wireframe image 3](assets/images/contact-wireframes.png)
+### Mobile
+![mobile](assets/images/mobile-wireframes.png)
 
 ### Relevant Social Links
 - Github
@@ -85,6 +87,7 @@ Lighthouse
 ![lighthouse-screen](assets/images/lighthouse-acc.png)
 
 ### Responsiveness
+#### Desktop
 ![index](assets/images/responsive-index.png)
 ![platforms](assets/images/responsive-platforms.png)
 ![contact](assets/images/responsive-contact.png)
