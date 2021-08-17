@@ -12,8 +12,6 @@ body{
     min-width: 300px;
 }
 
-
-
 section{
     display: block;
 }
@@ -161,7 +159,6 @@ header{
     font-size: 1.1em;
 }
 
-
 .cover-card{
     position: absolute;
     width: 300px;
@@ -306,7 +303,7 @@ header{
     background-size: 205px;
 }
 
-/* Social Navigation */
+/* Social Nav*/
 #social-nav{
     text-align: center;
 }
@@ -367,7 +364,7 @@ tr:hover{
     background-color: white;
 }
 
-/* Contact form and section*/
+/* Contact section and form*/
 #contact-form{
     top: 0px;
     left: auto;
